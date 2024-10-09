@@ -1,6 +1,6 @@
-![изображение](https://github.com/user-attachments/assets/fc93d005-82b3-40e5-bb7d-e5e9a248cc63)# Programming_lab1
 
 Вариант 313101
+![изображение](https://github.com/user-attachments/assets/fc93d005-82b3-40e5-bb7d-e5e9a248cc63)# Programming_lab1
 
 Я разбил исходный код программы на несколько файлов, чтобы было удобнее читать его.
 
@@ -17,6 +17,7 @@ GrandBattle — основной функционал программы, зап
 
 
 Результат работы программы:
+
 lab0			lib
 Lab1.jar		Programming_lab2.jar
 [s466280@helios ~]$ java -jar Programming_lab2.jar 
