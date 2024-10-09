@@ -13,4 +13,9 @@ public class MetalSound extends StatusMove{
     protected void applyOppEffects(Pokemon p){
         p.addEffect(new Effect().stat(Stat.SPECIAL_DEFENSE, -2));
     }
+
+    @Override
+    protected String describe() {
+        return "Использует MetalSound";
+    }
 }

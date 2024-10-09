@@ -13,4 +13,8 @@ public class ConfuseRay extends StatusMove{
     protected void applyOppEffects(Pokemon p){
         Effect.confuse(p);
     }
+    @Override
+    protected String describe() {
+        return "Атакует с помощью ConfuseRay";
+    }
 }

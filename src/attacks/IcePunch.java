@@ -15,4 +15,8 @@ public class IcePunch extends PhysicalMove{
             Effect.freeze(p);
         }
     }
+    @Override
+    protected String describe() {
+        return "Бьёт IcePunch";
+    }
 }

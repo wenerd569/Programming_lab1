@@ -9,8 +9,13 @@ public class Rest extends StatusMove{
     }
     
     protected void applyOppEffects(Pokemon p){
-        p.restore();
+        p.addEffect(new Effect().stat(Stat.HP, (int)p.getStat(Stat.HP)));
         p.addEffect(new Effect().condition(Status.SLEEP).turns(2));
+    }
+
+    @Override
+    protected String describe() {
+        return "Использует Rest";
     }
     
 }

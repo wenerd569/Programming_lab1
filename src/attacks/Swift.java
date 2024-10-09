@@ -12,4 +12,8 @@ public class Swift extends SpecialMove{
     protected boolean checkAccuracy(Pokemon att, Pokemon def){
         return true;
     }
+    @Override
+    protected String describe() {
+        return "Атакует с помощью Swift";
+    }
 }

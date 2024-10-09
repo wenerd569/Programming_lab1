@@ -16,4 +16,8 @@ public class DarkPulse extends SpecialMove{
             Effect.flinch(p);
         }
     }
+    @Override
+    protected String describe() {
+        return "Атакует с помощью Darkpulse";
+    }
 }

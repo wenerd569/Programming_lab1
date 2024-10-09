@@ -13,4 +13,8 @@ public class Inferno extends SpecialMove{
     protected void applyOppEffects(Pokemon p){
         Effect.burn(p);
     }
+    @Override
+    protected String describe() {
+        return "Использует Inferno";
+    }
 }

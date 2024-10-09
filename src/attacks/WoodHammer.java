@@ -14,4 +14,8 @@ public class WoodHammer extends PhysicalMove{
     protected void applySelfDamage(Pokemon att, double damage){
         att.addEffect(new Effect().stat(Stat.HP, -(int)(damage/3)));
     }
+    @Override
+    protected String describe() {
+        return "Бьёт с помощью WoodHamer";
+    }
 }
