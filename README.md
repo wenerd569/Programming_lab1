@@ -1,4 +1,6 @@
-# Programming_lab1
+![изображение](https://github.com/user-attachments/assets/fc93d005-82b3-40e5-bb7d-e5e9a248cc63)# Programming_lab1
+
+Вариант 313101
 
 Я разбил исходный код программы на несколько файлов, чтобы было удобнее читать его.
 
